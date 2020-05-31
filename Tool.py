@@ -7,10 +7,8 @@ from PIL import ImageTk
 from PIL import Image
 import threading
 root = Tk() 
-root.title("Tkinter")
+root.title("Detector 007")
 t=threading.Event()
-
-large_font =('Helvetica', 10)
 
 #starting of arp code
 def danger(a): 
@@ -107,35 +105,11 @@ def pro_start(ip):
         label3.place(relx=0.05,rely=0.90)             
         
 
+	
+	
+# below functions are used for designing the tool for UI 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# below functions are used for designing the tool for UI
-
-
-
-
-    
 def go(x):
     if x==1:
         arp()
